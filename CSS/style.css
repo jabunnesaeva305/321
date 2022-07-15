@@ -1,0 +1,64 @@
+#{
+    margin: 0;
+    padding: 0;
+}
+#container{
+    text-align: center;
+    width: 50%;
+   background-color:aqua;
+   color: black;
+    margin: auto;
+    padding: 15px;
+}
+#container h1{
+    font-size: 30px;
+    margin:5px 0px;
+    border: 0px;
+    padding: 5px;
+}
+input{
+    display: block;
+    width: 70%;
+    margin: auto;
+}
+label{
+    font-size: 15px;
+    text-transform: uppercase; 
+}
+input{
+    padding: 10px;
+    margin: 5px auto;
+}
+p{
+    font-size: 15px;
+    
+}
+p a{
+    text-decoration: none;
+    color:black;
+    font-weight: bold;
+}
+input[type="submit"]{
+    width: 50%;
+    font-size: 20px;
+    font-weight: 600;
+    background-color:black;
+    color: white;
+    border-radius: 5px;
+    border: black;
+    border-width: 2px;
+ border-style: solid;
+}
+input[type="submit"]{
+  
+   
+    
+
+}
+#submit-btn:hover{
+    background-color: aqua;
+}
+input::placeholder{
+  color: black;
+}
+
